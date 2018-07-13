@@ -1,7 +1,7 @@
 library(finreportr)
-AnnualReports("CMG")
-CompanyInfo("CMG")
-CompanyInfo("IQ")
-GetBalanceSheet("GOOG", 2017)
-
+AnnualReports("TREX")
+CompanyInfo("TREX")
+stock_bs <- GetBalanceSheet("GOOG", 2018)
+stock_is <- GetIncome("GOOG", 2018)
+stock_cf <- GetCashFlow("GOOG", 2018)
 
